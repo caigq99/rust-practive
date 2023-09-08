@@ -71,7 +71,7 @@ fn main() {
 }
 
 //  函数 语句和表达式 (语句会执行一些操作，但是并不会返回值，而表达式会在求值之后返回一个值)
-fn add_with_extra(x: i32, y: i32) -> i32 {
+fn _add_with_extra(x: i32, y: i32) -> i32 {
     let x = x + 1; // 语句
     let y = y + 1; // 语句
     x + y //  表达式
