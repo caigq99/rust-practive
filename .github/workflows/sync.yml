@@ -12,5 +12,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
-          source-repo: 'git@github.com:caigq99/test-sync.git'
-          destination-repo: 'git@gitee.com:caigq99/test-sync.git'
+          source-repo: 'git@github.com:caigq99/rust-practive.git'
+          destination-repo: 'git@gitee.com:caigq99/rust-practive.git'
